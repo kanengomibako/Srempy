@@ -189,7 +189,7 @@ int main(void)
   ssd1306_UpdateScreen();
 
   // 基板上のLED点灯（起動確認）
-  //HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, SET);
+  //HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
 
   // スイッチ用カウンタ
   uint32_t swcount[5] = {};
